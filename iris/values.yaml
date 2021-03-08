@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 redis: 
-  enabled: true
+  enabled: false
 
 replicaCount: 1
 
@@ -93,7 +93,7 @@ persistence:
 
   ## The path the volume will be mounted at.
   ##
-  mountPath: /project
+  mountPath: /projects
 
   ## The subdirectory of the volume to mount to, useful in dev environments
   ## and one PV for multiple services.
